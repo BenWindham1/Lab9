@@ -24,10 +24,10 @@ def main():
         choice = input("Please Enter an option: ")
         if choice == "1":
             ans = input("Please enter your password to encode: ")
-            password = encode(ans)  # Fix here
+            password = encode(ans)
             print("Your password has been encoded and stored!")
         elif choice == "2":
-            decoded = decode(password)  # Fix here
+            decoded = decode(password)
             print(f"The encoded password is {password}, and the original password is {decoded}")  # Fix here
         elif choice == "3":
             run = 0
